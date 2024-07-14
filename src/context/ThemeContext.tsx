@@ -8,7 +8,7 @@ interface ThemeContextProps {
 }
 
 const ThemeContext = createContext<ThemeContextProps>({
-  theme: "default",
+  theme: "red",
   setTheme: () => {
     throw new Error("setTheme function is not implemented");
   }, // Provides a meaningful error
@@ -19,7 +19,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [theme, setThemeState] = useState<Theme>(() => {
     const savedTheme = localStorage.getItem("app-theme");
-    return (savedTheme as Theme) || "default";
+    return (savedTheme as Theme) || "red";
   });
 
   const setTheme = (newTheme: Theme) => {
