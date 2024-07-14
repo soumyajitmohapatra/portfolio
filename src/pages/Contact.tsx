@@ -1,29 +1,14 @@
 import React from "react";
 import { CommonPageTemplate } from "../common/components/CommonPageTemplate";
 import { IoIosSend } from "react-icons/io";
-import { Button } from "../common/components/Button";
+import { useForm, ValidationError } from "@formspree/react";
+import { Header } from "../common/components/Header";
+import { FaCheckCircle } from "react-icons/fa";
+import { Spinner } from "../common/components/Spinner";
 
-interface ContactForm {
-  fullName: string;
-  email: string;
-  message: string;
-}
 export const Contact = () => {
-  const [formData, setFormData] = React.useState<ContactForm>({
-    fullName: "",
-    email: "",
-    message: "",
-  });
+  const [state, handleSubmit] = useForm("xnnanveg");
 
-  const handleOnChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleSubmit = () => {
-    console.table(formData);
-  };
   return (
     <CommonPageTemplate
       articleTitle="Contact"
@@ -41,39 +26,55 @@ export const Contact = () => {
           ></iframe>
         </figure>
       </section>
+
       <section className="contact-form">
         <h3 className="h3 form-title">Contact Form</h3>
-        <div className="form">
-          <div className="input-wrapper">
-            <input
-              type="text"
-              name="fullName"
-              className="form-input"
-              placeholder="Full name"
-              value={formData.fullName}
-              onChange={handleOnChange}
-            />
-            <input
-              type="email"
-              name="email"
-              className="form-input"
-              placeholder="Email address"
-              value={formData.email}
-              onChange={handleOnChange}
-            />
+        {state.succeeded ? (
+          <div className="d-flex align-center width-100 flex-direction-column">
+            <FaCheckCircle size={44} />
+            <Header headerTitle="Message Sent! I'll revert you ASAP." />
           </div>
-          <textarea
-            name="message"
-            className="form-input"
-            placeholder="Your Message"
-            value={formData.message}
-            onChange={handleOnChange}
-          />
-          <Button className="form-btn" onClick={handleSubmit}>
-            <IoIosSend />
-            <span>Send Message</span>
-          </Button>
-        </div>
+        ) : (
+          <form className="form" onSubmit={handleSubmit}>
+            <div className="input-wrapper">
+              <input
+                type="text"
+                name="fullName"
+                className="form-input"
+                placeholder="Full name"
+              />
+              <input
+                type="email"
+                name="email"
+                className="form-input"
+                placeholder="Email address"
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+            </div>
+            <textarea
+              name="message"
+              className="form-input"
+              placeholder="Your Message"
+            />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+            <button
+              className="form-btn"
+              type="submit"
+              disabled={state.submitting}
+            >
+              {state.submitting ? <Spinner size={20} /> : <IoIosSend />}
+              <span>Send Message</span>
+            </button>
+          </form>
+        )}
       </section>
     </CommonPageTemplate>
   );
