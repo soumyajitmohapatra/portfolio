@@ -1,0 +1,106 @@
+:root {
+  /* Solid Colors */
+  --jet: #383838;
+  --onyx: #2b2b2b;
+  --eerie-black-1: #212121;
+  --eerie-black-2: #1f1f1f;
+  --smoky-black: #121212;
+  --white-1: #ffffff;
+  --white-2: #fafafa;
+  --orange-yellow-crayola: #ffd966;
+  --vegas-gold: #c8b855;
+  --light-gray: #d6d6d6;
+  --light-gray-70: rgba(214, 214, 214, 0.7);
+  --bittersweet-shimmer: #cf826b;
+
+  /* Gradients */
+  --bg-gradient-onyx: linear-gradient(to bottom right, #3b3b3b 3%, #2f2f2f 97%);
+  --bg-gradient-jet: linear-gradient(
+      to bottom right,
+      rgba(45, 45, 45, 0.251) 0%,
+      rgba(28, 28, 28, 0) 100%
+    ),
+    var(--eerie-black-1);
+  --bg-gradient-1: linear-gradient(
+    to bottom right,
+    var(--primary-color) 0%,
+    var(--secondary-color) 50%
+  );
+  --bg-gradient-2: linear-gradient(
+      135deg,
+      rgba(255, 217, 102, 0.251) 0%,
+      rgba(255, 202, 89, 0) 59.86%
+    ),
+    var(--eerie-black-1);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    #3f3f3f 0%,
+    rgba(63, 63, 63, 0) 50%
+  );
+  --text-gradient: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+
+  /* Font Family */
+  --ff-poppins: "Poppins", sans-serif;
+
+  /* Font Size */
+  --fs-1: 24px;
+  --fs-2: 18px;
+  --fs-3: 17px;
+  --fs-4: 16px;
+  --fs-5: 15px;
+  --fs-6: 14px;
+  --fs-7: 13px;
+  --fs-8: 11px;
+
+  /* Font Weight */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+
+  /* Shadow */
+  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
+  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+
+  /* Transition */
+  --transition-1: 0.25s ease;
+  --transition-2: 0.5s ease-in-out;
+}
+
+/* Theme styles */
+.theme-default {
+  --primary-color: var(--orange-yellow-crayola);
+  --secondary-color: var(--vegas-gold);
+  --background-color: var(--smoky-black);
+}
+
+.theme-red {
+  --primary-color: #ff204e;
+  --secondary-color: #ff204dd5;
+  --background-color: var(--smoky-black);
+}
+
+.theme-blue {
+  --primary-color: #3dc2ec;
+  --secondary-color: #3dc3ecd3;
+  --background-color: var(--smoky-black);
+}
+
+.theme-green {
+  --primary-color: #03c988;
+  --secondary-color: #03c987c7;
+  --background-color: var(--smoky-black);
+}
+
+.theme-purple {
+  --primary-color: #c147e9;
+  --secondary-color: #c147e9bb;
+  --background-color: var(--smoky-black);
+}

@@ -1,0 +1,33 @@
+.custom-link {
+  background-image: linear-gradient(
+    to right,
+    var(--white-1),
+    var(--white-2) 50%,
+    var(--primary-color) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-position: 0;
+  }
+  &:hover::before {
+    width: 100%;
+  }
+  &::before {
+    content: "";
+    background: var(--white-2);
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+}
