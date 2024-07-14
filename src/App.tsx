@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { Tabs } from "./common/components/Tabs";
+import { tabItems } from "./data/tabItems";
+import { pages } from "./pages/pages";
+import { ThemeProvider } from "./context/ThemeContext";
+import ThemeToggleButton from "./common/components/ThemeSelector";
+import { IconContext } from "react-icons";
+import { Sidebar } from "./common/components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <IconContext.Provider
+        value={{
+          color: "var(--primary-color)",
+        }}
+      >
+        <main>
+          <Sidebar />
+          <ThemeToggleButton />
+          <div className="main-content">
+            <Tabs tabItems={tabItems} content={pages} />
+          </div>
+        </main>
+      </IconContext.Provider>
+    </ThemeProvider>
   );
 }
 
