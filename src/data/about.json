@@ -1,0 +1,56 @@
+{
+    "name": "Soumyajit Mohapatra",
+    "title": "Software Engineer",
+    "aboutMeOne": "Hello! I'm Soumyajit Mohapatra, a Front-End Developer based in Bangalore, India. With over three years of experience in web and mobile application development, I specialize in crafting stunning, user-friendly interfaces using React.js, TypeScript/JavaScript, and SCSS. Whether it's building dynamic user interfaces from scratch. I thrive on transforming complex challenges into elegant solutions.",
+    "aboutMeTwo": "My toolkit is packed with modern development skills: React.js, Redux, HTML, CSS, SCSS, React-Native, Node.js, SQL/PostgreSQL, Git, Bitbucket, JIRA, and more. I'm a firm believer in continuous learning and have honed my skills with certifications in advanced React.js, web development, and JavaScript. Let's connect and create something amazing together!",
+    "contact": [
+        {
+            "label":"Email",
+            "value":"<a title='hellosoumyajit@gmail.com' href='mailto:hellosoumyajit@gmail.com' class='contact-link'>hellosoumyajit@gmail.com</a>"
+        },
+        {
+            "label":"Phone",
+            "value":"<a href='tel:+12133522795' class='contact-link'>(+91) 700-847-7252</a>"
+        },
+        {
+            "label":"Birthday",
+            "value":"<time dateTime='1982-06-23'>Oct 13, 1998</time>"
+        },
+        {
+            "label":"Location",
+            "value":"<address>Bangalore, Karnataka, India</address>"
+        }
+    ],
+    "social":[
+        {
+            "label":"Soumyajit's Github Profile",
+            "url":"https://github.com/soumyajitmohapatra"
+        },
+        {
+            "label":"Soumyajit's LinkedIn Profile",
+            "url":"https://www.linkedin.com/in/soumyajit-mohapatra/"
+        }
+    ],
+    "whatIDo": [
+        {
+            "uId": "whatIDo-1",
+            "title": "Passionate Coder",
+            "description": "I create modern web applications with clean, efficient code for a seamless user experience."
+        },
+        {
+            "uId": "whatIDo-3",
+            "title": "Lifelong Learner",
+            "description": "I continuously explore new technologies and frameworks to enhance my skills."
+        },
+        {
+            "uId": "whatIDo-4",
+            "title": "Adventurous Explorer",
+            "description": "I travel and capture moments through photography, drawing inspiration from each journey."
+        },
+        {
+            "uId": "whatIDo-2",
+            "title": "Gaming Enthusiast",
+            "description": "If I'm not coding or traveling, there is a very good chance I'm playing video games."
+        }
+    ]    
+}

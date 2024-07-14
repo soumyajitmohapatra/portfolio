@@ -1,0 +1,199 @@
+{
+    "resumeUrl":"https://github.com/soumyajitmohapatra/soumyajitmohapatra/raw/main/Resume_soumyajit.pdf",
+    "experience": [{
+            "uId": "exp-infy-2022",
+            "title": "Associate Business Analyst",
+            "subTitle": "Infosys",
+            "companyUrl": "https://www.linkedin.com/company/infosys/",
+            "companyLogo": "",
+            "location": "Bangalore",
+            "startDate": "Dec 2022",
+            "endDate": "",
+            "isPresent": true,
+            "description": [
+                "Developed User Interface from scratch, using React.js (TypeScript) and SCSS, for a banking client.",
+                "Wrote comprehensive unit test cases maintaining code coverage above 85% to ensure the quality and reliability of the components.",
+                "Conducted performance optimization of React components, resulting in a 25% reduction in load time and enhancing the overall user experience.",
+                "Ensured application is 100% compliant with WCAG (Web Content Accessibility Guidelines) by implementing accessibility best practices, making the application more inclusive for users with disabilities.",
+                "Engaged in brainstorming sessions to generate innovative ideas and solutions for client requirements.",
+                "Fostered effective collaboration with onshore teams and clients, building strong working relationships.",
+                "Consistently delivered high-quality code and always completed 95% of the tasks before deadlines."
+            ],
+            "skillsUsed": ["TypeScript, ReactJs, HTML, SCSS, CSS, JEST, Performance Testing, Unit Testing, BitBucket, JIRA, Agile"]
+        },
+        {
+            "uId": "exp-stl-2021",
+            "title": "Software Engineer",
+            "subTitle": "Silicon Techlab Pvt. Ltd",
+            "companyUrl": "https://www.linkedin.com/company/silicon-techlab-pvt-ltd/",
+            "companyLogo": "",
+            "location": "Bhubaneshwar",
+            "startDate": "May 2021",
+            "endDate": "Dec 2022",
+            "isPresent": false,
+            "description": [
+                "Designed reusable components for web and mobile applications using React.js and React-Native.",
+                "Refactored reusable components to ensure that the components are 100% generic and provide a responsive User Interface.",
+                "Developed and tested REST APIs using Node.js and PostgreSQL.",
+                "Refactored the old codebase, reducing the overall size of the application by 20% and improving user experience and application performance by 30%.",
+                "Setup and maintained Git repositories, created branches, and managed issues.",
+                "Fostered effective collaboration with onshore teams and clients, building strong working relationships.",
+                "Contributed to the overall improvement of the codebase and development processes through code reviews and continuous learning."
+            ],
+            "skillsUsed": ["JavaScript, ReactJs, HTML, SCSS, CSS, React-Native, Node.Js, Express.js, PostgreSQL, GitHub"]
+        }
+    ],
+    "education": [{
+        "uId": "exp-bput-2016",
+        "title": "Biju Patnaik University of Technology",
+        "subTitle": "Bachelor of Technology, Computer Science and Engineering",
+        "location": "Cuttack",
+        "startDate": "Apr 2016",
+        "endDate": "Oct 2020",
+        "isPresent": false,
+        "grade": "7.47 GPA",
+        "description": []
+    }],
+    "skills": [{
+            "URL": "https://www.typescriptlang.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg",
+            "title": "TypeScript"
+        },
+        {
+            "URL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg",
+            "title": "JavaScript"
+        },
+        
+        {
+            "URL": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg",
+            "title": "HTML5"
+        },
+        {
+            "URL": "https://reactjs.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg",
+            "title": "React"
+        },
+        {
+            "URL": "https://redux.js.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg",
+            "title": "Redux"
+        },
+        {
+            "URL": "https://vitejs.dev/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg",
+            "title": "Vite"
+        },
+        {
+            "URL": "https://nextjs.org/docs",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg",
+            "title": "NextJs"
+        },
+        {
+            "URL": "https://www.gatsbyjs.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gatsby-colored.svg",
+            "title": "Gatsby"
+        },
+        {
+            "URL": "https://www.w3.org/TR/CSS/#css",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg",
+            "title": "CSS3"
+        },
+        {
+            "URL": "https://sass-lang.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg",
+            "title": "Sass"
+        },
+        {
+            "URL": "https://mui.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg",
+            "title": "Material UI"
+        },
+        {
+            "URL": "https://tailwindcss.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg",
+            "title": "TailwindCSS"
+        },
+        {
+            "URL": "https://getbootstrap.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg",
+            "title": "Bootstrap"
+        },
+        {
+            "URL": "https://chakra-ui.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/chakra-colored.svg",
+            "title": "Chakra UI"
+        },
+        {
+            "URL": "https://nodejs.org/en/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg",
+            "title": "NodeJS"
+        },
+        {
+            "URL": "https://expressjs.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg",
+            "title": "Express"
+        },
+        {
+            "URL": "https://www.python.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg",
+            "title": "python"
+        },
+        {
+            "URL": "https://graphql.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg",
+            "title": "GraphQL"
+        },
+        {
+            "URL": "https://www.mongodb.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg",
+            "title": "MongoDB"
+        },
+        {
+            "URL": "https://www.mysql.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg",
+            "title": "MySQL"
+        },
+        {
+            "URL": "https://www.postgresql.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg",
+            "title": "PostgreSQL"
+        },
+        {
+            "URL": "https://firebase.google.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg",
+            "title": "Firebase"
+        },
+        {
+            "URL": "https://git-scm.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg",
+            "title": "Git"
+        },
+        {
+            "URL": "https://webpack.js.org/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg",
+            "title": "Webpack"
+        },
+        {
+            "URL": "https://babeljs.io/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored.svg",
+            "title": "Babel"
+        },
+        {
+            "URL": "https://www.adobe.com/uk/products/photoshop.html",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg",
+            "title": "Photoshop"
+        },
+        {
+            "URL": "https://www.figma.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg",
+            "title": "Figma"
+        },
+        {
+            "URL": "https://code.visualstudio.com/",
+            "imgSrc": "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg",
+            "title": "VS Code"
+        }
+    ]
+}
