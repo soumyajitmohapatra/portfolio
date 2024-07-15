@@ -7,7 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { Spinner } from "../common/components/Spinner";
 
 export const Contact = () => {
-  const [state, handleSubmit] = useForm("");
+  const [state, handleSubmit] = useForm(`${process.env.REACT_APP_FORM_SPREE}`);
 
   return (
     <CommonPageTemplate
