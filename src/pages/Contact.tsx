@@ -7,7 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { Spinner } from "../common/components/Spinner";
 
 export const Contact = () => {
-  const [state, handleSubmit] = useForm("xnnanveg");
+  const [state, handleSubmit] = useForm("");
 
   return (
     <CommonPageTemplate
