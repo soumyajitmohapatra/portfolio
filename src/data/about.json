@@ -10,11 +10,11 @@
         },
         {
             "label":"Phone",
-            "value":"<a href='tel:+12133522795' class='contact-link'>(+91) 700-847-7252</a>"
+            "value":"<a href='tel:+917008477252' class='contact-link'>(+91) 700-847-7252</a>"
         },
         {
             "label":"Birthday",
-            "value":"<time dateTime='1982-06-23'>Oct 13, 1998</time>"
+            "value":"<time dateTime='1998-10-13'>Oct 13, 1998</time>"
         },
         {
             "label":"Location",
