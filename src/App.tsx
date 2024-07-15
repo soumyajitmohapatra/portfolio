@@ -9,8 +9,6 @@ import { IconContext } from "react-icons";
 import { Sidebar } from "./common/components/Sidebar";
 
 function App() {
-  console.log(process.env.FORM_SPREE);
-
   return (
     <ThemeProvider>
       <IconContext.Provider
