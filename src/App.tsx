@@ -7,6 +7,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import ThemeToggleButton from "./common/components/ThemeSelector";
 import { IconContext } from "react-icons";
 import { Sidebar } from "./common/components/Sidebar";
+import { InstallPrompt } from "./core/InstallPrompt";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           color: "var(--primary-color)",
         }}
       >
+        <InstallPrompt />
         <main>
           <Sidebar />
           <ThemeToggleButton />

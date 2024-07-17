@@ -25,9 +25,7 @@ export const About = () => {
         <p>{about.aboutMeOne}</p>
         <p>{about.aboutMeTwo}</p>
       </section>
-      {/*
-- service
-*/}
+
       <section className="service">
         <Header
           headerTitle="What i'm doing"

@@ -15,6 +15,7 @@ export const Resume = () => {
       isActive={true}
       icon={
         <Button
+          className="ml-1"
           aria-label="Download raw content"
           title="Download Resume"
           onClick={() => window.open(resumeData.resumeUrl)}
