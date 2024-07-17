@@ -17,7 +17,7 @@ export const Header = ({
   const className = children ? "d-flex align-baseline" : "";
   return (
     <header className={className}>
-      <Element className={`${headerElementName} ${headerClassName} mr-1`}>
+      <Element className={`${headerElementName} ${headerClassName}`}>
         {headerTitle}
       </Element>
       {children}
