@@ -6,7 +6,7 @@ import { Header } from "../common/components/Header";
 import { FaCheckCircle } from "react-icons/fa";
 import { Spinner } from "../common/components/Spinner";
 
-export const Contact = () => {
+const Contact = () => {
   const [state, handleSubmit] = useForm(`${process.env.REACT_APP_FORM_SPREE}`);
 
   return (
@@ -79,3 +79,5 @@ export const Contact = () => {
     </CommonPageTemplate>
   );
 };
+
+export default Contact;

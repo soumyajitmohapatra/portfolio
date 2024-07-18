@@ -37,7 +37,12 @@ export const Sidebar = () => {
           />
           <p className="title">{about.title}</p>
         </div>
-        <Button className="info_more-btn" onClick={toggleSideBar}>
+        <Button
+          className="info_more-btn"
+          onClick={toggleSideBar}
+          aria-labelledby="Expand More"
+          title="expand"
+        >
           <>
             <span>Show Contacts</span>
             <MdExpandMore size={28} />
