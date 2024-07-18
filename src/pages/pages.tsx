@@ -1,14 +1,15 @@
-import React from "react";
-import { About } from "./About";
-import { Resume } from "./Resume";
-import { Contact } from "./Contact";
+import React, { lazy, ReactNode } from "react";
 
-export interface Pages {
+const About = lazy(() => import("./About"));
+const Resume = lazy(() => import("./Resume"));
+const Contact = lazy(() => import("./Contact"));
+
+export interface PagesProps {
   uId: string;
-  content: JSX.Element;
+  content: ReactNode;
 }
 
-export const pages: Pages[] = [
+export const pages: PagesProps[] = [
   {
     uId: "about",
     content: <About />,

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Button } from "./Button";
-import { Pages } from "../../pages/pages";
+import { PagesProps } from "../../pages/pages";
+import { FullScreenLoader } from "./FullScreenLoader";
 
 export interface TabItems {
   title: string;
@@ -9,7 +10,7 @@ export interface TabItems {
 
 interface TabProps {
   tabItems: TabItems[];
-  content: Pages[];
+  content: PagesProps[];
 }
 
 export const Tabs: React.FC<TabProps> = ({ tabItems, content }) => {
@@ -30,7 +31,9 @@ export const Tabs: React.FC<TabProps> = ({ tabItems, content }) => {
           ))}
         </ul>
       </nav>
-      {content[selectedTab].content}
+      <Suspense fallback={<FullScreenLoader />}>
+        {content[selectedTab].content}
+      </Suspense>
     </>
   );
 };

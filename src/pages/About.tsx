@@ -8,7 +8,7 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 import about from "../data/about.json";
 
-export const About = () => {
+const About = () => {
   const icon = [
     BsFileEarmarkCode,
     LiaLaptopCodeSolid,
@@ -52,3 +52,5 @@ export const About = () => {
     </CommonPageTemplate>
   );
 };
+
+export default About;

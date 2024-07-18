@@ -7,7 +7,7 @@ import { Link } from "../common/components/Link";
 import { FaFileDownload } from "react-icons/fa";
 import { Button } from "../common/components/Button";
 
-export const Resume = () => {
+const Resume = () => {
   return (
     <CommonPageTemplate
       articleTitle="Resume"
@@ -59,3 +59,5 @@ export const Resume = () => {
     </CommonPageTemplate>
   );
 };
+
+export default Resume;
