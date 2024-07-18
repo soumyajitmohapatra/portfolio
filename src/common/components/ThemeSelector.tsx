@@ -53,13 +53,14 @@ const ThemeSelector: React.FC = () => {
             style={{
               background: `linear-gradient(135deg, var(--eerie-black-2) 50%, var(--primary-color) 50%)`,
             }}
-            aria-labelledby={key}
+            aria-label={`${key} theme`}
           />
         ))}
       </div>
       <MdColorLens
         className={`theme-selector-button ${themes[theme]?.className}`}
         onClick={toggleExpansion}
+        aria-label="theme selector"
       />
     </div>
   );
