@@ -45,7 +45,7 @@ export const Sidebar = () => {
         <Button
           className="info_more-btn"
           onClick={toggleSideBar}
-          aria-labelledby="Expand More"
+          aria-label="Expand More"
           title="expand"
         >
           <>
