@@ -7,7 +7,7 @@ import {
   MdExpandMore,
 } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../assets/image/profile.png";
+import profile from "../assets/image/profile.webp";
 import about from "../../data/about.json";
 import { Link } from "./Link";
 import { Header } from "./Header";
@@ -27,7 +27,12 @@ export const Sidebar = () => {
     <aside className={sideBarClassName}>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={profile} alt="Soumyajit Mohapatra" width={80} />
+          <img
+            src={profile}
+            alt="Soumyajit Mohapatra"
+            width={80}
+            height={140}
+          />
         </figure>
         <div className="info-content">
           <Header
