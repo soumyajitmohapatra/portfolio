@@ -1,0 +1,26 @@
+{
+    "portfolio": [{
+            "id": "porject-id-1",
+            "title": "Dark vs Light mode",
+            "category": "Case Study",
+            "date": "2024-07-16",
+            "image": "https://cdn.dribbble.com/users/2320033/screenshots/16541384/media/05506249e86b84b45902904630576120.png?resize=1000x750&vertical=center",
+            "altText": "Design conferences in 2022",
+            "description": "To create the look & feel of the product I explored the dark vs light mode together with neons & pastels pallet and played with some geometric illustrations including glassmorphism effect.",
+            "link": "#",
+            "type": "c"
+        },
+        {
+            "id": "porject-id-2",
+            "title": "This is Demo",
+            "category": "Project",
+            "date": "2024-07-16",
+            "image": "https://cdn.dribbble.com/userupload/13583241/file/original-fd94bda70a9ad7bb6041567df5891031.jpg?resize=1200x859",
+            "altText": "Design conferences in 2022",
+            "description": "To create the look & feel of the product I explored the dark vs light mode together with neons & pastels pallet and played with some geometric illustrations including glassmorphism effect.",
+            "link": "#",
+            "type": "p"
+        }
+    ]
+
+}

@@ -1,5 +1,6 @@
 import React, { lazy, ReactNode } from "react";
 
+const Portfolio = lazy(() => import("./Portfolio"));
 const About = lazy(() => import("./About"));
 const Resume = lazy(() => import("./Resume"));
 const Contact = lazy(() => import("./Contact"));
@@ -17,6 +18,10 @@ export const pages: PagesProps[] = [
   {
     uId: "resume",
     content: <Resume />,
+  },
+  {
+    uId: "projects",
+    content: <Portfolio />,
   },
   {
     uId: "contact",
