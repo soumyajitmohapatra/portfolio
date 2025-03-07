@@ -1,6 +1,6 @@
 import React, { lazy, ReactNode } from "react";
 
-const Portfolio = lazy(() => import("./Portfolio"));
+// const Portfolio = lazy(() => import("./Portfolio"));
 const About = lazy(() => import("./About"));
 const Resume = lazy(() => import("./Resume"));
 const Contact = lazy(() => import("./Contact"));
