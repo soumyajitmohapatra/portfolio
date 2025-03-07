@@ -19,10 +19,10 @@ export const pages: PagesProps[] = [
     uId: "resume",
     content: <Resume />,
   },
-  {
-    uId: "projects",
-    content: <Portfolio />,
-  },
+  // {
+  //   uId: "projects",
+  //   content: <Portfolio />,
+  // },
   {
     uId: "contact",
     content: <Contact />,
