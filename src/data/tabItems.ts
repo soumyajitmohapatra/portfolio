@@ -10,8 +10,11 @@ export const tabItems: TabItems[] = [
       uId: "resume",
     },
     {
+      title: "Project",
+      uId: "project",
+    },
+    {
       title: "Contact",
       uId: "contact",
     },
   ];
-
