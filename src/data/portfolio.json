@@ -1,24 +1,14 @@
 {
-    "portfolio": [{
-            "id": "porject-id-1",
-            "title": "Dark vs Light mode",
-            "category": "Case Study",
-            "date": "2024-07-16",
-            "image": "https://cdn.dribbble.com/users/2320033/screenshots/16541384/media/05506249e86b84b45902904630576120.png?resize=1000x750&vertical=center",
-            "altText": "Design conferences in 2022",
-            "description": "To create the look & feel of the product I explored the dark vs light mode together with neons & pastels pallet and played with some geometric illustrations including glassmorphism effect.",
-            "link": "#",
-            "type": "c"
-        },
+    "portfolio": [
         {
             "id": "porject-id-2",
-            "title": "This is Demo",
+            "title": "A Custom Hook for Rooks",
             "category": "Project",
-            "date": "2024-07-16",
-            "image": "https://cdn.dribbble.com/userupload/13583241/file/original-fd94bda70a9ad7bb6041567df5891031.jpg?resize=1200x859",
+            "date": "2024-08-04",
+            "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDMxOW1naHozeWFsY25pOXp1eGxsOXc2cHBtdmxsOHlzaHJ4MHhhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ju4kZ0xsVJ67XiBpAD/giphy.gif",
             "altText": "Design conferences in 2022",
-            "description": "To create the look & feel of the product I explored the dark vs light mode together with neons & pastels pallet and played with some geometric illustrations including glassmorphism effect.",
-            "link": "#",
+            "description": "I contributed to Rooks, an open-source library for React custom hooks, by developing the useInfiniteScroll hook, which enables infinite scrolling by fetching additional data as the user reaches the bottom of the page. My work included implementing features such as data fetching with pagination, accumulating API responses, managing loading and error states, and integrating the Intersection Observer API. I also provided comprehensive documentation to ensure ease of use and adoption by other developers.",
+            "link": "https://github.com/imbhargav5/rooks/pull/1757",
             "type": "p"
         }
     ]

@@ -3,17 +3,11 @@ import { Button } from "./Button";
 import { PagesProps } from "../../pages/pages";
 import { FullScreenLoader } from "./FullScreenLoader";
 
-export interface TabItems {
-  title: string;
-  uId: string;
-}
-
 interface TabProps {
-  tabItems: TabItems[];
-  content: PagesProps[];
+  tabItems: PagesProps[];
 }
 
-export const Tabs: React.FC<TabProps> = ({ tabItems, content }) => {
+export const Tabs: React.FC<TabProps> = ({ tabItems }) => {
   const [selectedTab, setSelectedTab] = React.useState(0);
   return (
     <>
@@ -32,7 +26,7 @@ export const Tabs: React.FC<TabProps> = ({ tabItems, content }) => {
         </ul>
       </nav>
       <Suspense fallback={<FullScreenLoader />}>
-        {content[selectedTab].content}
+        {tabItems[selectedTab].content}
       </Suspense>
     </>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.scss";
 import { Tabs } from "./common/components/Tabs";
-import { tabItems } from "./data/tabItems";
 import { pages } from "./pages/pages";
 import { ThemeProvider } from "./context/ThemeContext";
 import ThemeToggleButton from "./common/components/ThemeSelector";
@@ -22,7 +21,7 @@ function App() {
           <Sidebar />
           <ThemeToggleButton />
           <div className="main-content">
-            <Tabs tabItems={tabItems} content={pages} />
+            <Tabs tabItems={pages} />
           </div>
         </main>
       </IconContext.Provider>

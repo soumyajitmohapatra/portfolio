@@ -25,7 +25,7 @@ export const PortfolioCard: React.FC<portfolioPostProps> = ({
 }) => {
   return (
     <li className="portfolio-post-item">
-      <a href={link}>
+      <a href={link} target="_blank" rel="noreferrer">
         <figure className="portfolio-banner-box">
           <img src={image} alt={altText} loading="lazy" />
         </figure>
