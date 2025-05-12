@@ -27,7 +27,12 @@ export const Sidebar = () => {
     <aside className={sideBarClassName}>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={profile} alt="Soumyajit Mohapatra" width={80} />
+          <img
+            src={profile}
+            alt="Soumyajit Mohapatra"
+            width={80}
+            style={{ borderRadius: "1.2rem" }}
+          />
         </figure>
         <div className="info-content">
           <Header
