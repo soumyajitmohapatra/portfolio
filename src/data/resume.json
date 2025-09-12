@@ -2,6 +2,21 @@
   "resumeUrl": "https://github.com/soumyajitmohapatra/soumyajitmohapatra/raw/refs/heads/main/Resume-Soumyajit.pdf",
   "experience": [
     {
+      "uId": "exp-del-2025",
+      "title": "Consultant",
+      "subTitle": "Deloitte USI",
+      "companyUrl": "https://www.deloitte.com/ui/en/careers/careers.html",
+      "companyLogo": "",
+      "location": "Bangalore",
+      "startDate": "Jul 2025",
+      "endDate": "",
+      "isPresent": true,
+      "description": [
+      ],
+      "skillsUsed": [
+      ]
+    },
+    {
       "uId": "exp-infy-2024",
       "title": "Associate Consultant",
       "subTitle": "Infosys",
@@ -9,7 +24,7 @@
       "companyLogo": "",
       "location": "Bangalore",
       "startDate": "Jul 2024",
-      "endDate": "Serving Notice****",
+      "endDate": "May 2025",
       "isPresent": false,
       "description": [
         "Developed User Interface from scratch, using React.js (TypeScript) and SCSS, for a banking client.",
