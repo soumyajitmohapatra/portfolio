@@ -23,7 +23,7 @@ const About = () => {
     >
       <section className="about-text">
         {about.aboutMe.map(text =>
-          <p id={text}>{text}</p>
+          <p key={text}>{text}</p>
         )}
       </section>
 
