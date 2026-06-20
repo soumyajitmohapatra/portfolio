@@ -1,34 +1,38 @@
 {
     "name": "Soumyajit Mohapatra",
     "title": "Software Engineer",
-    "aboutMeOne": "Hello! I'm Soumyajit Mohapatra, a Front-End Developer based in Bangalore, India. With over four years of experience in web and mobile application development, I specialize in crafting stunning, user-friendly interfaces using React.js, TypeScript/JavaScript, and SCSS. Whether it's building dynamic user interfaces from scratch. I thrive on transforming complex challenges into elegant solutions.",
-    "aboutMeTwo": "My toolkit is packed with modern development skills: React.js, Redux, HTML, CSS, SCSS, React-Native, Node.js, SQL/PostgreSQL, Git, Bitbucket, JIRA, and more. I'm a firm believer in continuous learning and have honed my skills with certifications in advanced React.js, web development, and JavaScript. Let's connect and create something amazing together!",
+    "aboutMe": [
+        "I'm a Software Engineer at Deloitte with over 5 years of experience in designing and building scalable, accessible, and high-performing digital products. Throughout my career, I have worked across web, mobile, and cloud platforms, delivering solutions that balance business requirements with exceptional user experiences. I enjoy solving complex engineering challenges and transforming them into intuitive, user-friendly applications that create measurable impact.",
+        "My technical expertise spans both front-end and back-end development. On the front end, I specialize in React.js, TypeScript, JavaScript, React Native, HTML, CSS, and SCSS, building responsive applications and reusable component libraries that improve developer productivity and maintainability. On the back end, I work with Node.js, Python, PostgreSQL, SQL, and AWS to develop scalable APIs, cloud-native services, and robust application architectures.",
+        "I have experience working across multiple industries, including Banking, Financial Services and Insurance (BFSI), Enterprise Resource Planning (ERP) and Medical & Life Sciences. This diverse domain exposure has strengthened my ability to understand complex business processes, adapt quickly to new challenges, and deliver technology solutions that align with organizational goals.",
+        "As an engineer, I am passionate about continuous learning, clean architecture, and building software that scales. Whether collaborating with cross-functional teams, mentoring developers, or architecting new solutions, I focus on delivering maintainable, performant, and accessible applications that provide long-term value for both businesses and end users."
+    ],
     "contact": [
         {
-            "label":"Email",
-            "value":"<a title='hellosoumyajit@gmail.com' href='mailto:hellosoumyajit@gmail.com' class='contact-link'>hellosoumyajit@gmail.com</a>"
+            "label": "Email",
+            "value": "<a title='hellosoumyajit@gmail.com' href='mailto:hellosoumyajit@gmail.com' class='contact-link'>hellosoumyajit@gmail.com</a>"
         },
         {
-            "label":"Phone",
-            "value":"<a href='tel:+917008477252' class='contact-link'>(+91) 700-847-7252</a>"
+            "label": "Phone",
+            "value": "<a href='tel:+917008477252' class='contact-link'>(+91) 700-847-7252</a>"
         },
         {
-            "label":"Birthday",
-            "value":"<time dateTime='1998-10-13'>Oct 13, 1998</time>"
+            "label": "Birthday",
+            "value": "<time dateTime='1998-10-13'>Oct 13, 1998</time>"
         },
         {
-            "label":"Location",
-            "value":"<address>Bangalore, Karnataka, India</address>"
+            "label": "Location",
+            "value": "<address>Bangalore, Karnataka, India</address>"
         }
     ],
-    "social":[
+    "social": [
         {
-            "label":"Soumyajit's Github Profile",
-            "url":"https://github.com/soumyajitmohapatra"
+            "label": "Soumyajit's Github Profile",
+            "url": "https://github.com/soumyajitmohapatra"
         },
         {
-            "label":"Soumyajit's LinkedIn Profile",
-            "url":"https://www.linkedin.com/in/soumyajit-mohapatra/"
+            "label": "Soumyajit's LinkedIn Profile",
+            "url": "https://www.linkedin.com/in/soumyajit-mohapatra/"
         }
     ],
     "whatIDo": [
@@ -52,5 +56,5 @@
             "title": "Gaming Enthusiast",
             "description": "If I'm not coding or traveling, there is a very good chance I'm playing video games."
         }
-    ]    
+    ]
 }

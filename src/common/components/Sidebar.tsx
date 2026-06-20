@@ -7,7 +7,7 @@ import {
   MdExpandMore,
 } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../assets/image/profile.webp";
+import profile from "../assets/image/profile.png";
 import about from "../../data/about.json";
 import { Link } from "./Link";
 import { Header } from "./Header";

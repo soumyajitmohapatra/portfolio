@@ -9,6 +9,14 @@ import { Spinner } from "../common/components/Spinner";
 const Contact = () => {
   const [state, handleSubmit] = useForm(`${process.env.REACT_APP_FORM_SPREE}`);
 
+  const formRef = React.useRef<HTMLFormElement>(null);
+
+  const [isFormValid, setIsFormValid] = React.useState(false);
+
+  const handleFormChange = () => {
+    setIsFormValid(formRef.current?.checkValidity() ?? false);
+  };
+
   return (
     <CommonPageTemplate
       articleTitle="Contact"
@@ -35,19 +43,21 @@ const Contact = () => {
             <Header headerTitle="Message Sent! I'll revert you ASAP." />
           </div>
         ) : (
-          <form className="form" onSubmit={handleSubmit}>
+          <form className="form" onSubmit={handleSubmit} ref={formRef} onChange={handleFormChange}>
             <div className="input-wrapper">
               <input
                 type="text"
                 name="fullName"
                 className="form-input"
                 placeholder="Full name"
+                required
               />
               <input
                 type="email"
                 name="email"
                 className="form-input"
                 placeholder="Email address"
+                required
               />
               <ValidationError
                 prefix="Email"
@@ -59,6 +69,7 @@ const Contact = () => {
               name="message"
               className="form-input"
               placeholder="Your Message"
+              required
             />
             <ValidationError
               prefix="Message"
@@ -68,7 +79,7 @@ const Contact = () => {
             <button
               className="form-btn"
               type="submit"
-              disabled={state.submitting}
+              disabled={state.submitting || !isFormValid}
             >
               {state.submitting ? <Spinner size={20} /> : <IoIosSend />}
               <span>Send Message</span>

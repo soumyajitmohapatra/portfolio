@@ -22,8 +22,9 @@ const About = () => {
       isActive={true}
     >
       <section className="about-text">
-        <p>{about.aboutMeOne}</p>
-        <p>{about.aboutMeTwo}</p>
+        {about.aboutMe.map(text =>
+          <p id={text}>{text}</p>
+        )}
       </section>
 
       <section className="service">
